@@ -64,3 +64,15 @@ if (l1 % l2 == 0) {
 } else {
     document.writeln(`${l1} nie jest podzielna przez ${l2}<br>`);
 }
+
+
+// Zadanie 6
+let thing = parseFloat(prompt("Podaj liczbę"));
+
+if (thing == 0) {
+    document.writeln(`${thing} jest równe 0`);
+} else if (thing > 0) {
+    document.writeln(`${thing} jest dodatnie`);
+} else {
+    document.writeln(`${thing} jest ujemne`);
+}
