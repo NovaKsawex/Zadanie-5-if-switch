@@ -48,9 +48,19 @@ if (b2 != 0) {
 
 // Zadanie 4
 if (a == 0) {
-    document.writeln(`${a} to zero, ani parzysta ani nie parzysta`);
+    document.writeln(`${a} to zero, ani parzysta ani nie parzysta<br>`);
 } else if (a % 2 == 0) {
-    document.writeln(`${a} to liczba parzysta`);
+    document.writeln(`${a} to liczba parzysta<br>`);
 } else {
-    document.writeln(`${a} to liczba nie parzysta`);
+    document.writeln(`${a} to liczba nie parzysta<br>`);
+}
+
+// Zadanie 5
+let l1 = parseInt(prompt("Podaj pierwszą liczbę"));
+let l2 = parseInt(prompt("Podaj drugą liczbę"));
+
+if (l1 % l2 == 0) {
+    document.writeln(`${l1} jest podzielna przez ${l2}<br>`);
+} else {
+    document.writeln(`${l1} nie jest podzielna przez ${l2}<br>`);
 }
