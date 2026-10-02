@@ -91,3 +91,29 @@ if (duck3 > biggest) {
 }
 
 document.writeln(`Największa liczba z trzech liczb (${duck1}, ${duck2}, ${duck3}): ${biggest}`);
+
+// Zadanie 8
+let smallest = 0;
+let medium = 0;
+biggest = duck1;
+
+if (duck2 > biggest) {
+    medium = biggest
+    biggest = duck2
+} else {
+    medium = duck2
+}
+
+if (duck3 > biggest) {
+    smallest = medium
+    medium = biggest
+    biggest = duck3
+} else if (duck3 > medium) {
+    smallest = medium
+    medium = duck3
+} else {
+    smallest = duck3
+}
+
+document.writeln(`Posortowane 3 liczby: (${duck1}, ${duck2}, ${duck3}): ${smallest} ${medium} ${biggest}`);
+
