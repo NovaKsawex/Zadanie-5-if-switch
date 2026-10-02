@@ -70,11 +70,11 @@ if (l1 % l2 == 0) {
 let thing = parseFloat(prompt("Podaj liczbę"));
 
 if (thing == 0) {
-    document.writeln(`${thing} jest równe 0`);
+    document.writeln(`${thing} jest równe 0<br>`);
 } else if (thing > 0) {
-    document.writeln(`${thing} jest dodatnie`);
+    document.writeln(`${thing} jest dodatnie<br>`);
 } else {
-    document.writeln(`${thing} jest ujemne`);
+    document.writeln(`${thing} jest ujemne<br>`);
 }
 
 // Zadanie 7
@@ -90,7 +90,7 @@ if (duck3 > biggest) {
     biggest = duck3;
 }
 
-document.writeln(`Największa liczba z trzech liczb (${duck1}, ${duck2}, ${duck3}): ${biggest}`);
+document.writeln(`Największa liczba z trzech liczb (${duck1}, ${duck2}, ${duck3}): ${biggest}<br>`);
 
 // Zadanie 8
 let smallest = 0;
@@ -115,5 +115,5 @@ if (duck3 > biggest) {
     smallest = duck3
 }
 
-document.writeln(`Posortowane 3 liczby: (${duck1}, ${duck2}, ${duck3}): ${smallest} ${medium} ${biggest}`);
+document.writeln(`Posortowane 3 liczby: (${duck1}, ${duck2}, ${duck3}): ${smallest} ${medium} ${biggest}<br>`);
 
