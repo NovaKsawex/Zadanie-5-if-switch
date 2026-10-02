@@ -45,3 +45,12 @@ if (b2 != 0) {
 } else {
     document.writeln(`(a + 6)/(b - 4): Nie wolno dzielić przez 0<br>`);
 }
+
+// Zadanie 4
+if (a == 0) {
+    document.writeln(`${a} to zero, ani parzysta ani nie parzysta`);
+} else if (a % 2 == 0) {
+    document.writeln(`${a} to liczba parzysta`);
+} else {
+    document.writeln(`${a} to liczba nie parzysta`);
+}
