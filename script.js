@@ -76,3 +76,18 @@ if (thing == 0) {
 } else {
     document.writeln(`${thing} jest ujemne`);
 }
+
+// Zadanie 7
+let duck1 = parseFloat(prompt("Podaj pierwszą liczbę"));
+let duck2 = parseFloat(prompt("Podaj drugą liczbę"));
+let duck3 = parseFloat(prompt("Podaj trzecią liczbę"));
+
+let biggest = duck1;
+if (duck2 > biggest) {
+    biggest = duck2;
+}
+if (duck3 > biggest) {
+    biggest = duck3;
+}
+
+document.writeln(`Największa liczba z trzech liczb (${duck1}, ${duck2}, ${duck3}): ${biggest}`);
