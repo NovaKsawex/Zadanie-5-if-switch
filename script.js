@@ -10,8 +10,7 @@ if(b!=0) {
     document.writeln(`Wynik ${a}/${b} = ${wyn1}<br>`);
 }
 else {
-    wyn1 = 0;
-    document.writeln("Nie wolno dzielić przez 0<br>");
+    document.writeln(`${a}/${b}: Nie wolno dzielić przez 0<br>`);
 }
 
 // Zadanie 2
@@ -24,8 +23,19 @@ if (d!=0) {
     document.writeln(`Wynik ${a}/${b} + ${c}/${d} = ${wyn1 + wyn2}<br>`);
 }
 else {
-    wyn2 = 0;
-    document.writeln("Nie wolno dzielić przez 0<br>");
+    document.writeln(`${c}/${d}: Nie wolno dzielić przez 0<br>`);
 }
 
 document.writeln("</p>");
+
+// Zadanie 3
+let a2 = a + 6;
+let b2 = b - 4;
+
+let wyn3 = 0;
+if (b2 != 0) {
+    wyn3 = a2/b2;
+    document.writeln(`Wynik (${a} + 6) / (${b} - 4) = ${wyn3}<br>`);
+} else {
+    document.writeln(`${a2}/${b2}: Nie wolno dzielić przez 0<br>`)
+}
